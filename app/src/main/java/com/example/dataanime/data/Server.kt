@@ -5,7 +5,6 @@ import com.example.dataanime.models.AnimeModel
 class Server {
     fun setAnime(): List<AnimeModel> {
         val animeList: MutableList<AnimeModel> = ArrayList()
-
         animeList.add(AnimeModel("Атака титанов"))
         animeList.add(AnimeModel("Тетрадь смерти"))
         animeList.add(AnimeModel("Твое имя"))
@@ -16,7 +15,6 @@ class Server {
         animeList.add(AnimeModel("Волейбол"))
         animeList.add(AnimeModel("Патриотизм Мориарти"))
         animeList.add(AnimeModel("Дитя погоды"))
-
         return animeList
     }
 }
